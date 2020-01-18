@@ -1,2 +1,4 @@
 node_modules
 docker-compose.yml
+server/config.js
+dist/bundle.js
