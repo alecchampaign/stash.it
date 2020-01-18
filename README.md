@@ -53,7 +53,10 @@ module.exports = pool;
 ```
 The above configuration expects the `DB_USER`, `DB_PASS`, and `DB_PORT` environment variables, which are defined within the `docker-compose-template.yml` file. Also included in the `docker-compose-template.yml` file is a PostgreSQL container with the `POSTGRES_PASSWORD` and `POSTGRES_USER` environment variables.
 
-Make a copy of the template and configure the `DB_USER` and `POSTGRES_USER` to match, as well as the `DB_PASS` and `POSTGRES_PASSWORD`. Set `DB_PORT` to `5432`, unless you want to change which port the PostgreSQL container runs on. 
+Make a copy of the template and configure the `DB_USER` and `POSTGRES_USER` to match, as well as the `DB_PASS` and `POSTGRES_PASSWORD`. Set `DB_PORT` to `5432`, unless you want to change which port the PostgreSQL container runs on.
+
+### Setting the API key
+Stash.it relies on [Google's Natural Language API](https://cloud.google.com/natural-language/) for fetching suggested tags. Make a copy of the `config_template.js` file and name it `config.js`. Replace the placeholder text with your own API key.
 
 ### Starting the app
 After setting up the database and database connection, run `docker-compose up` to start the app. By default, the express server is set to listen on port `4000`, but this may also be changed in the `docker-compose.yml` file.
