@@ -4,9 +4,13 @@ Stash.it is a tool for saving articles (and possibly other content in the future
 
 ### Table of Contents
 [Description](#Description)
+
 [Installation](#Installation)
+
 [Usage](#Usage) 
+
 [Roadmap](#Roadmap)
+
 [License](#License)
 
 ## Description
