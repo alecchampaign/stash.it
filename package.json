@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "webpack -d --watch",
-    "start": "nodemon src/index.js"
+    "start": "webpack -p && node ./server/index.js"
   },
   "repository": {
     "type": "git",
@@ -20,16 +20,23 @@
   },
   "homepage": "https://github.com/alecchampaign/stash.it#readme",
   "dependencies": {
+    "axios": "^0.19.1",
     "body-parser": "^1.19.0",
     "cheerio": "^1.0.0-rc.3",
+    "cors": "^2.8.5",
     "express": "^4.17.1",
     "jsonframe-cheerio": "^3.0.1",
+    "nodemon": "^2.0.2",
     "pg": "^7.17.1",
+    "pg-pool": "^2.0.9",
     "react": "^16.12.0",
-    "react-dom": "^16.12.0"
+    "react-dom": "^16.12.0",
+    "react-modal": "^3.11.1",
+    "react-router-dom": "^5.1.2"
   },
   "devDependencies": {
     "@babel/core": "^7.8.3",
+    "@babel/plugin-proposal-optional-chaining": "^7.8.3",
     "@babel/preset-env": "^7.8.3",
     "@babel/preset-react": "^7.8.3",
     "babel-loader": "^8.0.6",
