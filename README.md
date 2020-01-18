@@ -1,4 +1,4 @@
-# Stash.it - Find an article you like? Stash it for later!
+# [Stash.it](https://stash-it.herokuapp.com/) - Find an article you like? Stash it for later!
 ## Overview
 Stash.it is a tool for saving articles (and possibly other content in the future!) to read later. Provide a link, add some tags, and rest assured knowing that your content is accessible regardless of [outdated links](https://en.wikipedia.org/wiki/Link_rot), future paywalls, and other forms of future content restrictions. All while maintaining the convenience of internet-accessible data.
 
