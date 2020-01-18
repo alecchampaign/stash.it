@@ -1,0 +1,1 @@
+module.exports = 'YOUR_GOOGLE_NATURAL_LANGUAGE_API_KEY_HERE';
