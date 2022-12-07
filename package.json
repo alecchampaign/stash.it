@@ -21,10 +21,10 @@
   "homepage": "https://github.com/alecchampaign/stash.it#readme",
   "dependencies": {
     "axios": "^0.19.1",
-    "body-parser": "^1.19.0",
+    "body-parser": "^1.20.1",
     "cheerio": "^1.0.0-rc.3",
     "cors": "^2.8.5",
-    "express": "^4.17.1",
+    "express": "^4.18.2",
     "jsonframe-cheerio": "^3.0.1",
     "nodemon": "^2.0.2",
     "pg": "^7.17.1",
